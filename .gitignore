@@ -1,4 +1,22 @@
+# Dependencies
 node_modules/
+package-lock.json
+
+# Bundle tarballs and build output
 *.tar.gz
-*.log
+*.tgz
+*.zip
 .output/
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
